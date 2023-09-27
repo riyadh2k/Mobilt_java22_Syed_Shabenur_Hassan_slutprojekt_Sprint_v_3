@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "364664568224",
+    "project_id": "slutproject-flutterv4",
+    "storage_bucket": "slutproject-flutterv4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364664568224:android:39581029482b5954af4cc5",
+        "android_client_info": {
+          "package_name": "com.example.slutproject_v4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_5N-PXDXi1r3h_HCo-xxV5dvolphDDqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
