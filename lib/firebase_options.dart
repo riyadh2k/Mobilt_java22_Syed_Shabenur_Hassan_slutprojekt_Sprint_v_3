@@ -44,14 +44,18 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDhnNLRdDDOWzZy201A6vjQIWXEgslTdDc',
-    appId: '1:929020475247:web:787028404851cd69325a9a',
-    messagingSenderId: '929020475247',
-    projectId: 'slutproject-flutter',
-    authDomain: 'slutproject-flutter.firebaseapp.com',
-    databaseURL: 'https://slutproject-flutter-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'slutproject-flutter.appspot.com',
-    measurementId: 'G-Q3J0LE2Z0D',
+      apiKey: "AIzaSyC9ruEC34iFUPLJXLRHILlIpj--a4UIX9g",
+
+      authDomain: "slutproject-flutterv4.firebaseapp.com",
+
+      projectId: "slutproject-flutterv4",
+
+      storageBucket: "slutproject-flutterv4.appspot.com",
+
+      messagingSenderId: "364664568224",
+
+      appId: "1:364664568224:web:061c98cb6b7ed7b7af4cc5"
+
   );
 
   static const FirebaseOptions android = FirebaseOptions(

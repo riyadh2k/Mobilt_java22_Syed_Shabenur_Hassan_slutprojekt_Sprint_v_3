@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/services.dart';
+import 'package:slutproject_v4/firebase_options.dart';
 import 'package:slutproject_v4/pages/history_page.dart';
 import 'package:slutproject_v4/pages/home_page.dart';
 import 'package:slutproject_v4/pages/translate_page.dart';
 
-Future main() async{
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-  runApp(const MyApp());
+void main() {
+  runApp(const App());
 }
 
 class App extends StatelessWidget {
@@ -16,7 +16,9 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-      future: Firebase.initializeApp(),
+      future: Firebase.initializeApp(
+        options: DefaultFirebaseOptions.currentPlatform
+      ),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.done) {
           return const MyApp();
