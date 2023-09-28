@@ -8,6 +8,12 @@ import 'package:slutproject_v4/pages/translate_page.dart';
 
 void main() {
   runApp(const App());
+
+ /* SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.landscapeLeft,
+    DeviceOrientation.landscapeRight,
+  ]);*/
 }
 
 class App extends StatelessWidget {
